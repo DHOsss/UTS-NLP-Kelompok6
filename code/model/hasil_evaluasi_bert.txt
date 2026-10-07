@@ -1,0 +1,25 @@
+Jumlah data: 1400 | latih 1120 | uji 280 | teks mentah, panjang maks 128 token
+Model dasar: indobenchmark/indobert-base-p1 | epok 4 | batch 16 | lr 2e-05
+
+=== IndoBERT (fine-tuned, model utama) ===
+Akurasi : 0.8929
+Presisi : 0.8932
+Recall  : 0.8929
+F1      : 0.8928
+
+Confusion matrix (baris = aktual, kolom = prediksi) [negatif, positif]:
+[[127  13]
+ [ 17 123]]
+
+              precision    recall  f1-score   support
+
+     negatif     0.8819    0.9071    0.8944       140
+     positif     0.9044    0.8786    0.8913       140
+
+    accuracy                         0.8929       280
+   macro avg     0.8932    0.8929    0.8928       280
+weighted avg     0.8932    0.8929    0.8928       280
+
+PERBANDINGAN (data & split identik):
+  Naive Bayes (baseline) : 86.07%
+  IndoBERT (model utama) : 89.29%
