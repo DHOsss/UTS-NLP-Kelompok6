@@ -1,0 +1,9 @@
+google-play-scraper
+pandas
+numpy
+scikit-learn
+matplotlib
+streamlit
+torch
+transformers
+accelerate
