@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.streamlit/
+
+# Bobot model besar (238 MB, melebihi batas GitHub) - regenerasi dengan: python train_bert.py
+code/model/indobert/
+code/model/_cekpt/
+
+# Sistem
+Thumbs.db
+.DS_Store
