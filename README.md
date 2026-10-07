@@ -55,6 +55,7 @@ code/                  program lengkap
 ├── scrape.py          pengumpulan data ulasan + pelabelan otomatis
 ├── train_bert.py      fine-tuning IndoBERT (metode utama) + evaluasi
 ├── data/              2.035 ulasan mentah + daftar 1.400 ulasan seimbang
+Data_Uji_Coba.csv      280 data uji + hasil prediksi IndoBERT (validasi akurasi 89,29%)
 └── model/             hasil evaluasi, grafik, model tersimpan
 laporan/               tulisan ilmiah Bab 1-3 (PDF)
 manual/                manual penjelasan program (PDF)
